@@ -1,0 +1,27 @@
+/* Custom Styles */
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+section {
+    padding: 40px 0;
+}
+
+h1, h2, h3 {
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    padding-left: 20px;
+}
+
+ul li::before {
+    content: '✓';
+    padding-right: 10px;
+}
